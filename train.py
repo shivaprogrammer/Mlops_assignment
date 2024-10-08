@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1QCn381UJViiMgtyQhVDoGB0ZE8TbxcOS
 """
 
+
+
 import pandas as pd
 import mlflow
 import mlflow.sklearn
@@ -19,7 +21,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-df = pd.read_csv('https://github.com/shivaprogrammer/Mlops_assignment/blob/main/hour.csv')
+df = pd.read_csv('https://github.com/shivaprogrammer/Mlops_assignment/edit/main/hour.csv')
 
 # Inspect for any missing values
 print(df.isnull().sum())
